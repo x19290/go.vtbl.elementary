@@ -5,18 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "demo.py",
+            "type": "python",
+            "request": "launch",
+            "program": "demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        },
+        {
             "name": "who-are-you-demo.go",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "program": "1demo/who-are-you-demo.go",
-        },
-        {
-            "name": "${file}.go",
-            "type": "go",
-            "request": "launch",
-            "mode": "auto",
-            "program": "${file}",
         },
         {
             "name": "${file}.py",
@@ -25,6 +26,13 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false,
+        },
+        {
+            "name": "${file}.go",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${file}",
         },
     ]
 }
