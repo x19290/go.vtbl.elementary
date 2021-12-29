@@ -1,0 +1,4 @@
+/[012]*/go.*
+/.vscode/.*
+__pycache__/
+.DS_Store
