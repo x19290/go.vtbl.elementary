@@ -37,7 +37,7 @@ def main():
         call(r'go mod init %s' % _ODDMOD, cwd=y)
 
     pkg0 = pkgs[0]
-    (pkg0 / r'go.mod').write_bytes(br'')
+    (pkg0 / r'go.mod').touch()
     impl = pkg0.name
     for y in pkgs[1:]:
         call(r'go mod edit -replace 0=../%s' % impl, cwd=y)
