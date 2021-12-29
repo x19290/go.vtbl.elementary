@@ -1,8 +1,8 @@
-# A Golang Demo: Template Method Pattern (the simplest)
+# A Golang Demo: Virtual Method Dispatching (simplest)
 
-This demo shows you a **Template Method Pattern** in the simplest form.
+This demo shows you a **Template Method Pattern** of the simplest form in Go.
 
-**Virtual Method Dispatching** in Go is not so straightforward.
+**Virtual Method Dispatching** in Go is not so trivial.
 I hope this demo helps you understand the how.
 
 1. [0impl/who-are-you.go](0impl/who-are-you.go)
