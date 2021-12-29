@@ -34,6 +34,7 @@ def main():
         seen.add(y)
         pkgs.append(y)
         rm(y / r'go.mod')
+    for y in pkgs[1:]:
         call(r'go mod init %s' % _ODDMOD, cwd=y)
 
     pkg0 = pkgs[0]
