@@ -2,7 +2,8 @@
 
 This demo shows you a **Template Method Pattern** in the simplest form.
 
-I think **Virtual Method Dispatching** in Go is not so obvious that this demo makes sense.
+**Virtual *Method Dispatching** in Go is not so straightforward.
+I hope this demo helps you understand the how.
 
 1. [0impl/who-are-you.go](0impl/who-are-you.go)
    - one interface, one base struct, two derived structs
@@ -10,7 +11,7 @@ I think **Virtual Method Dispatching** in Go is not so obvious that this demo ma
 1. [1demo/who-are-you-demo.go](1demo/who-are-you-demo.go)
    - main() that prints the output from the template method to the stdout
 1. [2test/who-are-you_test.go](2test/who-are-you_test.go)
-   - Test0() that the output from the template method
+   - Test0() that tests the output from the template method
 
 ## [demo.py](demo.py)
 
@@ -28,4 +29,4 @@ This Python program does:
 
 ## FYI
 
-https://github.com/x19290/go.pkg-mod.git
+https://github.com/x19290/go-elementary.pkg-mod.git
