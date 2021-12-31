@@ -29,4 +29,4 @@ This Python program does:
 
 ## FYI
 
-https://github.com/x19290/pkg-mod.go-elementary.git
+https://github.com/x19290/go.pkg-mod.elementary.git
